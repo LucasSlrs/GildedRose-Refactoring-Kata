@@ -1,4 +1,3 @@
-import { Item, GildedRose } from '@/gilded-rose';
 
 /**
  * This unit test uses [Jest Snapshot](https://goo.gl/fbAQLP).
@@ -9,6 +8,9 @@ import { Item, GildedRose } from '@/gilded-rose';
  *
  * I suggest choosing one style to develop and deleting the other.
  */
+
+import { GildedRose } from "@/src/gilded-rose/gilder-rose.service";
+import { Item } from "@/src/item/item.service";
 
 describe('Gilded Rose Approval', () => {
 

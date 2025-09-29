@@ -1,5 +1,6 @@
+import { GildedRose } from '@/src/gilded-rose/gilder-rose.service';
+import { Item } from '@/src/item/item.service';
 import { expect } from 'chai';
-import { Item, GildedRose } from '@/gilded-rose';
 
 describe('Gilded Rose', () => {
   it('should foo', () => {

@@ -1,4 +1,5 @@
-import { Item, GildedRose } from '../app/gilded-rose';
+import { GildedRose } from "../app/src/gilded-rose/gilder-rose.service";
+import { Item } from "../app/src/item/item.service";
 
 console.log("OMGHAI!")
 
