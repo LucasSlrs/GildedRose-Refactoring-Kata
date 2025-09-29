@@ -1,4 +1,4 @@
-import { ItemName } from "@/src/item/enums/item-name.enum";
+import { ItemName } from "../../item/enums/item-name.enum";
 import { AgedBrieStrategy } from "../aged-brie.strategy";
 import { NormalItemStrategy } from "../normal-item.strategy";
 import { ItemStrategy } from "../interfaces/item.strategy.interface";

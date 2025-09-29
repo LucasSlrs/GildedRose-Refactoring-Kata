@@ -1,4 +1,4 @@
-import { ItemName } from "@/src/item/enums/item-name.enum";
+import { ItemName } from "../app/src/item/enums/item-name.enum";
 import { GildedRose } from "../app/src/gilded-rose/gilder-rose.service";
 import { Item } from "../app/src/item/item.service";
 
