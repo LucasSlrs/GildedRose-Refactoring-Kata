@@ -2,7 +2,7 @@ import { ItemName } from "../app/src/item/enums/item-name.enum";
 import { GildedRose } from "../app/src/gilded-rose/gilder-rose.service";
 import { Item } from "../app/src/item/item.service";
 
-console.log("OMGHAI!")
+console.log("Hello Qover's Team!")
 
 const items = [
   new Item(ItemName.DexterityVest, 10, 20), //
