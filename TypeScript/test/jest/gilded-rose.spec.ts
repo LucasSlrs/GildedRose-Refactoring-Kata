@@ -56,6 +56,6 @@ describe('Conjured Items', () => {
       const gildedRose = new GildedRose([new Item(ItemName.ConjuredManaCake, 5, 10)]);
       const items = gildedRose.updateQuality();
       expect(items[0].sellIn).toBe(4);
-      expect(items[0].quality).toBe(8); // -2 au lieu de -1
+      expect(items[0].quality).toBe(8);
     });
 });

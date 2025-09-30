@@ -5,10 +5,10 @@ import { Item } from "../app/src/item/item.service";
 console.log("Hello Qover's Team!")
 
 const items = [
-  new Item(ItemName.DexterityVest, 10, 20), //
-  new Item(ItemName.AgedBrie, 2, 0), //
-  new Item(ItemName.ElixirOfTheMongoose, 5, 7), //
-  new Item(ItemName.SulfurasHandOfRagnaros, 0, 80), //
+  new Item(ItemName.DexterityVest, 10, 20), 
+  new Item(ItemName.AgedBrie, 2, 0), 
+  new Item(ItemName.ElixirOfTheMongoose, 5, 7), 
+  new Item(ItemName.SulfurasHandOfRagnaros, 0, 80), 
   new Item(ItemName.SulfurasHandOfRagnaros, -1, 80),
   new Item(ItemName.Backstage, 15, 20),
   new Item(ItemName.Backstage, 10, 49),

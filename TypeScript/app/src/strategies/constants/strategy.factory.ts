@@ -6,7 +6,7 @@ import { BackstageStrategy } from "../backstage.strategy";
 import { SulfurasStategy } from "../sulfuras.strategy";
 import { ConjuredStrategy } from "../conjured.strategy";
 
-const STRATEGY = {
+const STRATEGY_MAP = {
     [ItemName.AgedBrie]: () => new AgedBrieStrategy(),
     [ItemName.Backstage]: () => new BackstageStrategy(),
     [ItemName.SulfurasHandOfRagnaros]: () => new SulfurasStategy(),
@@ -14,7 +14,7 @@ const STRATEGY = {
 }
 
 export const strategyFactory = (itemName: ItemName): ItemStrategy => {
-    const strategy = STRATEGY[itemName];
+    const strategy = STRATEGY_MAP[itemName];
     if (!strategy) {
         return new NormalItemStrategy()
     }
